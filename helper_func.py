@@ -11,7 +11,7 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
-from config import ADMINS, FORCE_SUB_CHANNEL, FORCE_SUB_GROUP, FORCE_SUB_CHANNEL_1, FORCE_SUB_GROUP_1, FORCE_SUB_CHANNEL_2, FORCE_SUB_GROUP_2,
+from config import ADMINS, FORCE_SUB_CHANNEL, FORCE_SUB_GROUP, FORCE_SUB_CHANNEL_1, FORCE_SUB_GROUP_1, FORCE_SUB_CHANNEL_2, FORCE_SUB_GROUP_2
 
 
 async def subschannel(filter, client, update):
